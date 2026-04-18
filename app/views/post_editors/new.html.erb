@@ -1,0 +1,11 @@
+<% content_for :title, "New post editor" %>
+
+<h1>New post editor</h1>
+
+<%= render "form", post_editor: @post_editor %>
+
+<br>
+
+<div>
+  <%= link_to "Back to post editors", post_editors_path %>
+</div>
